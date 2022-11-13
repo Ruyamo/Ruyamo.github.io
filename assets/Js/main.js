@@ -46,7 +46,7 @@ function colorChanger(){
     let para =  document.querySelectorAll('p');
     let h4 = document.querySelector('h4');
     let hThrees = document.querySelectorAll("h3");
-    let navLinks =  document.querySelectorAll('.boot-icon')
+    let navLinks =  document.querySelectorAll('.boot')
 
 
     navLinks.forEach(x =>{
