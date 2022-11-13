@@ -1,0 +1,904 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(0, 4, 6, 0.922);
+    
+    
+}
+.display{
+    right: 0;
+    
+}
+header{
+    width: 100%;
+}
+h1{
+    color:white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Work Sans',sans-serif;
+    margin-left: 7%;
+}
+a:hover{
+    color: rgb(135, 2, 31);
+
+}
+p{
+  
+    color: white;
+    font-size: 14px;
+    word-spacing: 3px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+#banner h1{
+    font-size: 40px;
+    color: white;
+    font-family: 'Work Sans';
+    margin-left: 20%;
+}
+nav{
+    width: 100%;
+    height: 70px;
+    
+}
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-links{
+    margin: 1% 10% 0 0;
+    display: flex; 
+    list-style-type: none;
+}
+.nav-links li{
+    padding: 15px;
+    
+}
+.nav-links li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 600;
+    transition: all 25ms;
+}
+.nav-links li a:hover{
+    border-bottom: 4px solid white;
+}
+.logo{
+    margin:1% 0 0 8%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 700;
+}
+#banner h3{
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+    margin-left: 20%;
+}
+.container > div{
+    width: 50%;
+}
+.container{
+    margin-top: 3%;
+    width: 100%;
+    height:450px ;
+    
+   
+}
+.boot-icon{
+    color: white;
+    font-size: 25px;
+    margin-bottom:1%;
+    transition: all 1s;
+    
+}
+.boot-icon:hover{
+    color: rgb(135, 2, 31);
+}
+.container div{
+  
+   float: left;
+   margin-top: 4%;
+    
+}
+.container div a{
+    color: white;
+    text-decoration: none;
+    margin-left: 20%;
+    font-family: 'Work Sans', sans-serif;
+    padding: 2% 3% 2% 2%;
+    background-color: rgb(135, 2, 31);
+    transition: all 1s;
+    border-radius: 5%}
+
+.container-two > div + div h3{
+    color: white;
+    font-weight: 500;
+    font-family: 'Work Sans' ,sans-serif;
+    /* margin-top: 10%; */
+}
+.container-two > div + div p {
+    font-size: 16px;
+    margin-right: 20%;
+    margin-top: 6%;
+
+
+}
+.container-two > div img{
+    width: 60%;
+    height: 300px;
+    margin-left: 20%;
+    border-radius: 5%;
+}
+.container-two div{
+    width: 50%;
+    float: left;
+}
+
+.project-work > div + div h3{
+    margin-left: 15%;
+    color: white;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 300px;
+    font-size: 15px;
+}
+.project-work a{
+    transition: all 0.5s;
+}
+.project-work div{
+    height: 250px;
+    float: left;
+    width: 50%;
+    margin-bottom: 10%;
+}
+.project-work > div img{
+    width: 60%;
+    height: 250px;
+    margin: 5% 0 0 20%;
+    border-radius:5%;
+    transition: all 0.5s;
+}
+.project-work > div + div h3{
+    margin-top: 10%;
+}
+.project-work > div + div p{
+    margin-left: 15%;
+    margin-bottom: 7%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+.project-work h3{
+    margin-left: 15%;
+    color: white;
+    font-family: 'Work Sans',sans-serif;
+    font-weight: 300px;
+    font-size: 15px;
+}
+.project-work a:hover{
+    background-color: white;
+    color: rgb(135, 2, 31);
+}
+.project-work > div + div a{
+    margin-left: 15%;
+    color: white;
+    text-decoration: none;
+    font-family: 'Work Sans' ,sans-serif;
+    padding: 1% 2% 1% 2%;
+    border-radius: 5%;
+   
+    background-color: rgb(135, 2, 31);
+}
+#about-section{
+    height: 500px;
+    
+}
+
+#about-section a{
+    border-radius: 5%;
+    margin-left: 15%;
+    color: white;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+    text-decoration: none;
+    padding: 2% 3% 2% 3%;
+    border: 1px solid rgb(135, 2, 31);
+    background-color: rgb(135, 2, 31);
+    transition: all 1s;
+}
+
+
+.project-img:hover{
+    width:59%;
+    transform: scale(0.9);
+}
+#about-section a:hover{
+    background-color: white;
+    color: rgb(135, 2, 31);
+    font-weight: 600;
+    border: none;
+}
+#about-section h1{
+    margin-left: 8%;
+}
+
+
+.container-about{
+    width: 100%;
+    height: 400px;
+   
+}
+.container-about  div{
+    width: 50%;
+    float: left;
+   
+}
+/* .des-para{
+    height: 200px!important;
+} */
+    
+.container-two{
+    margin-top: 5%;
+}j
+.container-two div  img{
+    width: 60%;
+    height: 400px;
+    margin-left: 15%;
+    transition: all 1s;
+    border-radius: 5%;
+    }
+   
+    #footer{
+        width: 100%;
+        height: 100px;
+       
+    }
+    .toggle-menu{
+        display: none;
+        margin-right: -55;
+    }
+    #footer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-ul{
+        display: flex;
+        margin-left: 15%;
+        margin-top: 5%;
+        margin-right: 5%;
+    }
+    .footer-ul li{
+        padding: 7px;
+        list-style-type: none;
+    }
+    .boot-icon2{
+        color: white;
+        font-size: 15px;
+
+    }
+    .boot-icon2:hover{
+        color: rgb(135, 2, 31);
+    }
+    #footer h4{
+        margin-right: 10%;
+        margin-top: 5%;
+        font-family: 'Work Sans',sans-serif;
+        color: white;
+        font-size: 12px;
+        font-weight: 300;
+    }
+   
+    @media screen and (max-width:480px){
+        .nav-links{
+            display: none;
+        }
+        .toggle-nav ul li{
+            text-align: center;
+        }
+        .toggle-menu{
+            display: flex;
+            margin-right: 5%;
+        }
+        header{
+            position: fixed;
+            /* background-color: rgba(0, 4, 6, 0.922); */
+            height: 50px;
+        }
+      
+        nav{
+            margin-top: 0;
+        }
+        .container div{
+            width: 100%;
+            height: 300px;
+            margin-left: -5%;
+        }
+        #about-section h1{
+            margin-left: 0;}
+      
+      
+        #footer{
+            width: 100%;
+            margin-top: 10%;
+            display: block;
+            text-align: center;
+            height: 50px;
+        }
+        #footer > div{
+            width: 100%;
+            height: 40px;
+            /* border: 1px solid white; */
+            float: left;
+        }
+        #footer > div + div{
+            width: 100%;
+            height: 40px;
+            /* border: 1px solid white; */
+            float: left;
+        }
+        #footer > div + div h4{
+            margin-left: 15%;
+        }
+        .footer-ul{
+            margin-left: 28%;
+        }
+        .container > div + div{
+            display: none;
+         }
+         #about-section{
+            height: 500px;
+            /* border: 1px solid white; */
+            width: 100%;
+         }
+         .container-two{
+            width: 100%;
+            height: 550px;
+            /* margin-top: 10%;*/
+            
+            
+        }
+         .container-two div{
+            width: 100%;
+            height: 250px;
+            /* border: 1px solid white; */
+            float: left;
+
+         }
+        
+         .container-two > div img{
+            width: 70%;
+            height: 200px;
+            margin: 10% 0 0 15%;
+            border-radius:5% ;
+        }
+        .container-two > div + div h3{
+            margin-left: 15%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .container-two > div + div p{
+            margin-left: 15%;
+            font-size: 13px;
+            margin-right: 5%;
+        }
+        .project-work{
+            margin-top: 20%;
+            height: 500px;
+            width: 100%;
+            /* border: 1px solid white; */
+        }
+        .project-work h3{
+            margin-left: 37%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 900;
+            font-size: 15px;
+        }
+        .project-work div{
+            width: 100%;
+            height: 250px;
+            float: left;
+            /* border: 1px solid white; */
+        }
+        .project-work > div img{
+            width: 60%;
+            height: 200px;
+            margin: 5% 0 0 20%;
+            border-radius:5%;
+            transition: all 0.5s;
+        }
+        .project-work > div + div h3{
+            margin-left: 15%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .project-work > div + div p{
+            margin-left: 15%;
+            margin-bottom: 7%;
+        }
+        .project-work > div + div a{
+            margin-left: 15%;
+            color: white;
+            text-decoration: none;
+            font-family: 'Work Sans' ,sans-serif;
+            padding: 2% 3% 2% 3%;
+            border-radius: 5%;
+           
+            background-color: rgb(135, 2, 31);
+        }
+    }
+
+   
+    
+  
+    @media (min-width:481px) and (max-width:768px){
+        .nav-links{
+            display: none;
+        }
+        .toggle-menu{
+            display: flex;
+            margin-right: 5%;
+        }
+        header{
+            position: fixed;
+            /* background-color: rgba(0, 4, 6, 0.922); */
+            height: 40px;
+        }
+      #banner h1{
+        font-size: 40px;
+        width: 100%;
+      }
+        nav{
+            margin-top: 0;
+        }
+        .container-two div{
+            width: 100%;
+            height: 250px;
+            /* border: 1px solid white; */
+            float: left;
+         
+         }
+        .container div{
+            width: 100%;
+            float: left;
+            height: 400px;
+          
+            
+            
+        }
+      
+        .container div + div{
+            display: none;
+
+        }
+        .container-two div p{
+            width: 75%;
+        }
+        .project-work > div img{
+            width: 60%;
+            height: 300px;
+            margin: 5% 0 0 30%;
+            border-radius:5%;
+            transition: all 0.5s;
+        }
+        #about-section{
+            height: 700px;
+            /* border: 1px solid white; */
+            width: 100%;
+           
+            margin-left: 5%;
+         }
+         .container-two > div img{
+            width: 60%;
+            height: 250px;
+            margin: -5% 0 5% 25%;
+            border-radius:5% ;
+        }
+        .project-work > div + div h3{
+            margin-left: 25%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .project-work div{
+            height: 250px;
+            width: 100%;
+            float: left;
+        }
+        .project-work > div + div p{
+            margin-left: 25%;
+            margin-bottom: 7%;
+            margin-right: 5%;
+            }
+        .container-two > div + div h3{
+            margin-left: 17%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        
+        .container-two > div + div p{
+            margin-left: 17%;
+            font-size: 15px;
+        }
+        .project-work h3{
+            margin-left: 15%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .project-work > div + div a{
+            margin-left: 25%;
+            color: white;
+            text-decoration: none;
+            font-family: 'Work Sans' ,sans-serif;
+            padding: 2% 3% 2% 3%;
+            border-radius: 5%;
+           
+            background-color: rgb(135, 2, 31);
+        }
+        
+        #footer{
+            width: 100%;
+            margin-top: 10%;
+            display: block;
+            text-align: center;
+            height: 50px;
+        }
+        #footer > div{
+            width: 100%;
+            height: 40px;
+            /* border: 1px solid white; */
+            float: left;
+        }
+        #footer > div + div{
+            width: 100%;
+            height: 40px;
+            /* border: 1px solid white; */
+            float: left;
+        }
+        #footer > div + div h4{
+            margin-left: 30%;
+        }
+        .footer-ul{
+            margin-left: 45%;
+        }
+      
+         
+    }
+    @media (min-width:769px) and (max-width:1279px) {
+        .nav-links{
+            display: none;
+        }
+        .toggle-menu{
+            display: flex;
+            margin-right: 5%;
+        }
+        header{
+            position: fixed;
+            /* background-color: rgba(0, 4, 6, 0.922); */
+            height: 40px;
+        }
+      #banner h1{
+        font-size: 40px;
+        width: 100%;
+      }
+        nav{
+            margin-top: 0;
+        }
+        .container div{
+            width: 50%;
+            float: left;
+            height: 500px;
+            margin-left: 5%;
+            
+        }
+        .container div + div{
+            display: none;
+        }
+        .project-work > div img{
+            width: 60%;
+            height: 200px;
+            margin: 5% 0 0 20%;
+            border-radius:5%;
+            transition: all 0.5s;
+        }
+        #about-section{
+            height: 500px;
+            /* border: 1px solid white; */
+            width: 100%;
+         }
+         .container-two div{
+            width: 50%;
+            float: left;
+         }
+         .container-two > div img{
+            width: 70%;
+            height: 200px;
+            margin: 10% 0 0 20%;
+            border-radius:5% ;
+        }
+        .project-work > div + div h3{
+            margin-left: 15%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .project-work div{
+            height: 250px;
+            float: left;
+            width: 50%;
+        }
+        .project-work > div + div h3{
+            margin-top: 8%;
+        }
+        .project-work > div + div p{
+            margin-left: 15%;
+            margin-bottom: 7%;
+            margin-right: 5%;
+            margin-top: 6%;
+        }
+        .container-two > div + div h3{
+            margin-left: 5%;
+            margin-top: 6%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .container-two > div + div p{
+            margin-left: 5%;
+            margin-right: 3%;
+            margin-top: 5%;
+            font-size: 14px;
+        }
+        .project-work h3{
+            margin-left: 15%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .project-work > div + div a{
+            margin-left: 15%;
+            color: white;
+            text-decoration: none;
+            font-family: 'Work Sans' ,sans-serif;
+            padding: 2% 3% 2% 3%;
+            border-radius: 5%;
+           
+            background-color: rgb(135, 2, 31);
+        }
+        
+        #footer{
+            width: 100%;
+            margin-top: 10%;
+            display: block;
+            text-align: center;
+            height: 50px;
+        }
+        #footer > div{
+            width: 100%;
+            height: 40px;
+            /* border: 1px solid white; */
+            float: left;
+        }
+        #footer > div + div{
+            width: 100%;
+            height: 40px;
+            /* border: 1px solid white; */
+            float: left;
+        }
+        #footer > div + div h4{
+            text-align: center;
+        }
+        .footer-ul{
+            margin-left: 35%;
+        }
+    }
+    @media (min-width:1280) {
+        .nav-links{
+            display: none;
+        }
+        .toggle-menu{
+            display: flex;
+            margin-right: 5%;
+        }
+        header{
+            position: fixed;
+            /* background-color: rgba(0, 4, 6, 0.922); */
+            height: 40px;
+        }
+      #banner h1{
+        font-size: 40px;
+        width: 100%;
+      }
+        nav{
+            margin-top: 0;
+        }
+        .container div{
+            width: 50%;
+            float: left;
+            height: 500px;
+            margin-left: 5%;
+            
+        }
+        .container div + div{
+            display: none;
+        }
+        .project-work > div img{
+            width: 60%;
+            height: 200px;
+            margin: 5% 0 0 20%;
+            border-radius:5%;
+            transition: all 0.5s;
+        }
+        #about-section{
+            height: 500px;
+            /* border: 1px solid white; */
+            width: 100%;
+         }
+         .container-two div{
+            width: 50%;
+            float: left;
+         }
+         .container-two > div img{
+            width: 70%;
+            height: 200px;
+            margin: 5% 0 0 20%;
+            border-radius:5% ;
+        }
+        .project-work > div + div h3{
+            margin-left: 15%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .project-work div{
+            height: 250px;
+            float: left;
+            width: 50%;
+        }
+        .project-work > div + div h3{
+            margin-top: 15%;
+        }
+        .project-work > div + div p{
+            margin-left: 15%;
+            margin-bottom: 7%;
+            margin-right: 5%;
+            margin-top: 6%;
+        }
+        .container-two > div + div h3{
+            margin-left: 5%;
+            margin-top: 10%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .container-two > div + div p{
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-top: 5%;
+        }
+        .project-work h3{
+            margin-left: 15%;
+            color: white;
+            font-family: 'Work Sans',sans-serif;
+            font-weight: 300px;
+            font-size: 15px;
+        }
+        .project-work > div + div a{
+            margin-left: 15%;
+            color: white;
+            text-decoration: none;
+            font-family: 'Work Sans' ,sans-serif;
+            padding: 2% 3% 2% 3%;
+            border-radius: 5%;
+           
+            background-color: rgb(135, 2, 31);
+        }
+        
+        #footer{
+            width: 100%;
+            margin-top: 10%;
+            display: block;
+            text-align: center;
+            height: 50px;
+        }
+        #footer > div{
+            width: 100%;
+            height: 40px;
+            /* border: 1px solid white; */
+            float: left;
+        }
+        #footer > div + div{
+            width: 100%;
+            height: 40px;
+            /* border: 1px solid white; */
+            float: left;
+        }
+        #footer > div + div h4{
+            text-align: center;
+        }
+        .footer-ul{
+            margin-left: 35%;
+        }
+    }
+      
+       
+    .icon2{
+        color:white;
+    }
+    .icon2:hover{
+        color: rgba(0, 4, 6, 0.922);
+    }
+    .see-more{
+        margin-left: 45%;
+        padding: 1% 2% 1% 2%;
+        color: white;
+        font-family: 'Work Sans',sans-serif;
+        background-color: rgb(135, 2, 31);
+        transition: all 1s;
+        text-decoration: none;
+    }
+    .see-more:hover{
+        background-color: white;
+        color: rgb(135, 2, 31);
+        font-weight: 600;
+    }
+    .toggle-nav{
+        background-color:rgb(135, 2, 31);
+        width: 70px;
+        height: 180px;
+        border-radius: 6%;
+        position: absolute;
+        transition: all 0.5s;
+        top: 0%;
+        right: -80%;
+        position: fixed;
+        padding-right: 7%;
+    }
+    .hidden{
+        visibility: visible;
+        right: 0;
+    }
+    .toggle-nav ul{
+        list-style-type: none;
+    }
+    .toggle-nav ul li{
+        padding: 6px;
+        
+      
+    }
+
+    .toggle-nav ul li a{
+        color: rgba(0, 4, 6, 0.922);
+        text-decoration: none;
+        font-family: 'Work San', sans-serif;
+        transition: all 0.5s;
+    
+    }
+    .toggle-nav ul li a:hover{
+       font-weight: 600;
+
+    }
+
+   
+   
+    
