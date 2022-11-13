@@ -15,6 +15,17 @@ times.forEach(x => {
     })
 })
 
+
+let bodyS =  document.querySelector('body');
+let togMode =  document.querySelector('.tog-mode');
+
+togMode.addEventListener('click', run);
+function run()
+{
+    colorChanger();
+    bodyS.classList.toggle("darkMode");
+}
+
 // let bootIcon = document.querySelectorAll('a[href="#")');
 // bootIcon.forEach(x => {
 //     x.addEventListener('click', function(e){
@@ -25,5 +36,36 @@ times.forEach(x => {
 //     })
 // })
 
+
+function colorChanger(){
+    let footicon =  document.querySelectorAll('.boot-icon2');
+    let tog =  document.querySelector('.tog-mode')
+    let loGo =  document.querySelector('.logo');
+    let toggle = document.querySelector('.boot-icon3');
+    let hOne = document.querySelector('h1');
+    let para =  document.querySelectorAll('p');
+    let h4 = document.querySelector('h4');
+    let hThrees = document.querySelectorAll("h3");
+    let navLinks =  document.querySelectorAll('.boot-icon')
+
+
+    navLinks.forEach(x =>{
+        x.classList.toggle("h1darkMode")
+    })
+    h4.classList.toggle('h1darkMode');
+    footicon.forEach(x =>
+        x.classList.toggle("h1darkMode")
+        )
+    tog.classList.toggle('h1darkMode');
+    toggle.classList.toggle('h1darkMode');
+    loGo.classList.toggle("h1darkMode");
+    hThrees.forEach(x => {
+        x.classList.toggle('h1darkMode')
+    })
+    para.forEach(x =>{
+        x.classList.toggle('h1darkMode');
+    })
+    hOne.classList.toggle("h1darkMode");
+}
 
     

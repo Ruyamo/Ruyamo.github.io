@@ -3,12 +3,27 @@ html{
 }
 body{
     background-color: rgba(0, 4, 6, 0.922);
+    transition: all 0.6s;
     
     
 }
+
 .display{
     right: 0;
     
+}
+.tog-mode{
+    margin: 1%;
+    color:white!important;
+    
+}
+.darkMode {
+    background-color: #f6f6f6;
+    color: black!important;
+    
+}
+.h1darkMode{
+    color: rgba(0, 4, 6, 0.922)!important;
 }
 header{
     width: 100%;
@@ -50,7 +65,7 @@ nav{
 
 }
 .nav-links{
-    margin: 1% 10% 0 0;
+    margin: 0% 10% 0 0;
     display: flex; 
     list-style-type: none;
 }
